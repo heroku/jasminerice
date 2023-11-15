@@ -17,6 +17,6 @@ gem 'turn', :require => false, :group => :test
 
 group :development, :test do
   gem "rspec-rails"
-  gem "capybara"
+  gem "capybara", ">= 2.0.3"
   gem "aruba"
 end
