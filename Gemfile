@@ -16,7 +16,7 @@ gem 'jquery-rails'
 gem 'turn', :require => false, :group => :test
 
 group :development, :test do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 8.0.0"
   gem "capybara"
   gem "aruba"
 end
