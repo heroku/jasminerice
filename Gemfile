@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gemspec
 
 # used by the dummy application
-gem 'rails', '3.1.0'
+gem 'rails', '7.1.5.2'
 gem 'json'
 gem 'coffee-rails', "~> 3.1.0"
 gem 'haml-rails'
